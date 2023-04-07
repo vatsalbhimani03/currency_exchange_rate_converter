@@ -1,0 +1,37 @@
+body {
+  background-color: aquamarine;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+h1{
+  margin: 0;
+  margin-bottom: 10%;
+  font-family: fantasy;
+}
+
+.input {
+  border: 2px solid darkslategrey;
+  border-radius: .5em;
+  padding: 5px;
+  width: 10em;
+  margin-right: 10px;
+}
+
+.select {
+  border: 2px solid darkslategrey;
+  border-radius: .3em;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.equal {
+  font-family: fantasy;
+  font-size: 30px;
+  padding: 5px;
+  margin-left: -50px;
+}
